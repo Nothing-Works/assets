@@ -1,16 +1,8 @@
 <template>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">Home Component</div>
-
-                    <div class="card-body">
-                        I'm an Home component.
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div>
+        <h1 class="text-4xl font-normal text-gray-900 leading-none">
+            Full Logo
+        </h1>
     </div>
 </template>
 
