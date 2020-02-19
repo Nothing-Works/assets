@@ -18,7 +18,7 @@
         </header>
         <div class="container px-8 pb-10">
             <div class="flex">
-                <aside class="w-1/5 pt-8">
+                <aside class="w-1/5 pt-8 flex-shrink-0">
                     <section class="mb-10">
                         <h5 class="uppercase font-bold mb-5">The Brand</h5>
                         <ul>
