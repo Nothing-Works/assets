@@ -21,16 +21,16 @@
                         <h5 class="uppercase font-bold mb-3">The Brand</h5>
                         <ul>
                             <li class="text-sm leading-10">
-                                <router-link to="/">Logo</router-link>
+                                <router-link to="/" exact>Logo</router-link>
                             </li>
                             <li class="text-sm leading-10">
-                                <router-link to="/about">Logo Symbol</router-link>
+                                <router-link to="/logo-symbol">Logo Symbol</router-link>
                             </li>
                             <li class="text-sm leading-10">
-                                <router-link to="/about">Colors</router-link>
+                                <router-link to="/colors">Colors</router-link>
                             </li>
                             <li class="text-sm leading-10">
-                                <router-link to="/about">Typography</router-link>
+                                <router-link to="/typography">Typography</router-link>
                             </li>
                         </ul>
                     </section>
@@ -38,16 +38,17 @@
                         <h5 class="uppercase font-bold mb-3">Doodles</h5>
                         <ul>
                             <li class="text-sm leading-10">
-                                <router-link to="/">Mascot</router-link>
+                                <router-link to="/mascot">Mascot</router-link>
                             </li>
                             <li class="text-sm leading-10">
-                                <router-link to="/about">Illustrations</router-link>
+                                <router-link to="/illustrations">Illustrations</router-link>
                             </li>
                             <li class="text-sm leading-10">
-                                <router-link to="/about">Loaders and Animations</router-link>
+                                <router-link to="/loaders-and-animations">Loaders and
+                                    Animations</router-link>
                             </li>
                             <li class="text-sm leading-10">
-                                <router-link to="/about">Wallpapers</router-link>
+                                <router-link to="/wallpapers">Wallpapers</router-link>
                             </li>
                         </ul>
                     </section>

@@ -1,6 +1,8 @@
 <template>
     <div>
-        <h1 class="text-4xl font-normal text-gray-900 leading-none">About</h1>
+        <h1 class="text-4xl font-normal text-gray-900 leading-none">
+            Mascot
+        </h1>
     </div>
 </template>
 
