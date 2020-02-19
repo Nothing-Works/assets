@@ -1991,6 +1991,58 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Home Component mounted.');
@@ -37604,9 +37656,106 @@ var staticRenderFns = [
     return _c("div", [
       _c(
         "h1",
-        { staticClass: "text-4xl font-normal text-gray-900 leading-none" },
+        { staticClass: "text-4xl font-normal text-gray-900 leading-none mb-8" },
         [_vm._v("\n        Full Logo\n    ")]
-      )
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-10" }, [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "h-64 block rounded-lg shadow flex items-center justify-center mb-6"
+          },
+          [_c("img", { attrs: { src: "/images/logo.svg", alt: "logo" } })]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between  items-center" }, [
+          _c("p", [
+            _vm._v("Original logo on "),
+            _c("strong", [_vm._v("white")]),
+            _vm._v(" background")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-gray-600 px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/logo.svg" }
+            },
+            [_vm._v("logo.svg")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-10" }, [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "h-64 block shadow rounded-lg flex items-center justify-center mb-6 bg-as-blue"
+          },
+          [
+            _c("img", {
+              attrs: { src: "/images/negative-logo.svg", alt: "logo" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between  items-center" }, [
+          _c("p", [
+            _vm._v(
+              "\n                Negative logo with accent on\n                "
+            ),
+            _c("strong", [_vm._v("dark")]),
+            _vm._v(" background\n            ")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-gray-600 px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/negative-logo.svg" }
+            },
+            [_vm._v("negative-logo.svg")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "h-64 block shadow rounded-lg flex items-center justify-center mb-6 bg-black"
+          },
+          [
+            _c("img", {
+              attrs: { src: "/images/pure-negative-logo.svg", alt: "logo" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between  items-center" }, [
+          _c("p", [
+            _vm._v("\n                Pure negative logo on\n                "),
+            _c("strong", [_vm._v("dark")]),
+            _vm._v(" background\n            ")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-gray-600 px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/pure-negative-logo.svg" }
+            },
+            [_vm._v("pure-negative-logo.svg")]
+          )
+        ])
+      ])
     ])
   }
 ]
@@ -53349,15 +53498,14 @@ __webpack_require__.r(__webpack_exports__);
 /*!**********************************************!*\
   !*** ./resources/js/components/NotFound.vue ***!
   \**********************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NotFound_vue_vue_type_template_id_2ce50e5a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NotFound.vue?vue&type=template&id=2ce50e5a& */ "./resources/js/components/NotFound.vue?vue&type=template&id=2ce50e5a&");
 /* harmony import */ var _NotFound_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NotFound.vue?vue&type=script&lang=js& */ "./resources/js/components/NotFound.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _NotFound_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _NotFound_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -53387,7 +53535,7 @@ component.options.__file = "resources/js/components/NotFound.vue"
 /*!***********************************************************************!*\
   !*** ./resources/js/components/NotFound.vue?vue&type=script&lang=js& ***!
   \***********************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

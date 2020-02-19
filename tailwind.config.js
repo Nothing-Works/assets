@@ -2,7 +2,8 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'as-black': '#222222'
+                'as-black': '#222222',
+                'as-blue': '#1747b0'
             }
         },
         fontFamily: {
