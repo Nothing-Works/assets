@@ -6,8 +6,12 @@ import Mascot from './components/Mascot'
 import Illustrations from './components/Illustrations'
 import Wallpapers from './components/Wallpapers'
 import NotFound from './components/NotFound'
+import SiteStats from './components/SiteStats'
 
-const LoadersAndAnimations = () => import(/* webpackChunkName: "loaders" */'./components/LoadersAndAnimations')
+const LoadersAndAnimations = () =>
+    import(
+        /* webpackChunkName: "loaders" */ './components/LoadersAndAnimations'
+    )
 
 export default {
     linkActiveClass: 'font-bold',
@@ -48,6 +52,10 @@ export default {
         {
             path: '/wallpapers',
             component: Wallpapers
+        },
+        {
+            path: '/site-stats',
+            component: SiteStats
         }
     ]
 }

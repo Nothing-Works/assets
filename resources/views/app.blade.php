@@ -38,7 +38,7 @@
                             </li>
                         </ul>
                     </section>
-                    <section>
+                    <section class="mb-10">
                         <h5 class="uppercase font-bold mb-5">Doodles</h5>
                         <ul>
                             <li class="text-sm leading-10">
@@ -53,6 +53,15 @@
                             </li>
                             <li class="text-sm leading-10">
                                 <router-link to="/wallpapers">Wallpapers</router-link>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h5 class="uppercase font-bold mb-5">Stats</h5>
+                        <ul>
+                            <li class="text-sm leading-10">
+                                <router-link to="/site-stats">Site Stats</router-link>
                             </li>
                         </ul>
                     </section>
