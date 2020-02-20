@@ -13,7 +13,9 @@
     <div id="app">
         <header class="py-6 px-8 mb-8" style="background: url('/images/splash.svg') no-repeat;">
             <h1>
-                <img src="/images/logo.svg" alt="Assets">
+                <router-link to="/">
+                    <img src="/images/logo.svg" alt="Assets">
+                </router-link>
             </h1>
         </header>
         <div class="container px-8 pb-10">

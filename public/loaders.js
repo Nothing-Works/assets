@@ -99,7 +99,7 @@ var render = function() {
       {
         staticClass:
           "border px-10 py-2 rounded-full text-black font-bold text-xs",
-        attrs: { href: "/images/logo.svg" }
+        attrs: { href: "/laracasts-spinner.zip" }
       },
       [_vm._v("spinner.zip\n    ")]
     )

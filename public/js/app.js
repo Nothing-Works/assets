@@ -2176,6 +2176,128 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('About Component mounted.');
@@ -38102,27 +38224,27 @@ var render = function() {
       _c("div", { staticClass: "flex flex-col items-center mr-4" }, [
         _c("div", {
           staticClass: "rounded-full w-5 h-5 shadow mb-3",
-          style: "background: " + _vm.from
+          style: "background: " + _vm.to
         }),
         _vm._v(" "),
         _c("p", {
           staticClass: "text-xs",
-          domProps: { textContent: _vm._s(_vm.from) }
+          domProps: { textContent: _vm._s(_vm.to) }
         })
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "flex flex-col items-center" }, [
         _c("div", {
           staticClass: "rounded-full w-5 h-5 shadow mb-3",
-          style: "background: " + _vm.to
+          style: "background: " + _vm.from
         }),
         _vm._v(" "),
-        _c("p", { domProps: { textContent: _vm._s(_vm.to) } })
+        _c("p", { domProps: { textContent: _vm._s(_vm.from) } })
       ])
     ]),
     _vm._v(" "),
     _c("h5", {
-      staticClass: "uppercase ",
+      staticClass: "uppercase",
       domProps: { textContent: _vm._s(_vm.name) }
     })
   ])
@@ -38281,9 +38403,207 @@ var staticRenderFns = [
     return _c("div", [
       _c(
         "h1",
-        { staticClass: "text-4xl font-normal text-gray-900 leading-none" },
+        {
+          staticClass: "text-4xl font-normal text-gray-900 leading-none mb-10"
+        },
         [_vm._v("\n        Illustrations\n    ")]
-      )
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "flex mb-12" }, [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "px-10 py-6 bg-as-blue rounded-lg flex-1 flex justify-center items-center mr-10"
+          },
+          [
+            _c("img", {
+              staticClass: "w-32",
+              attrs: {
+                src: "/images/illustrations/clarity.svg",
+                alt: "Clarity"
+              }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex-1" }, [
+          _c("h2", { staticClass: "text-2xl mb-4 mt-4" }, [_vm._v("Clarity")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "mb-8 leading-relaxed" }, [
+            _vm._v(
+              "\n                Anyone can fumble around until a program works. But to write\n                truly clear code...is far more difficult.\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-gray-600 px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/illustrations/clarity.svg" }
+            },
+            [_vm._v("clarity.svg")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flex mb-12" }, [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "px-10 py-6 bg-as-blue rounded-lg flex-1 flex justify-center items-center mr-10"
+          },
+          [
+            _c("img", {
+              staticClass: "w-32",
+              attrs: { src: "/images/illustrations/fun.svg", alt: "Fun" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex-1" }, [
+          _c("h2", { staticClass: "text-2xl mb-4 mt-4" }, [_vm._v("Fun")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "mb-8 leading-relaxed" }, [
+            _vm._v(
+              "\n                If you’re not having fun, what's the point? As exhausting as\n                programming can sometimes be, don't forget the simple joy of\n                writing in a code editor, and seeing it reflected in the\n                browser.\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-gray-600 px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/illustrations/fun.svg" }
+            },
+            [_vm._v("fun.svg")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flex mb-12" }, [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "px-10 py-6 bg-as-blue rounded-lg flex-1 flex justify-center items-center mr-10"
+          },
+          [
+            _c("img", {
+              staticClass: "w-32",
+              attrs: {
+                src: "/images/illustrations/experiment.svg",
+                alt: "experiment"
+              }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex-1" }, [
+          _c("h2", { staticClass: "text-2xl mb-4 mt-4" }, [
+            _vm._v("Experiment")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "mb-8 leading-relaxed" }, [
+            _vm._v(
+              "\n                Each step of a new project often requires hours of research\n                and experimentation.\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-gray-600 px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/illustrations/experiment.svg" }
+            },
+            [_vm._v("experiment.svg")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flex mb-12" }, [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "px-10 py-6 bg-as-blue rounded-lg flex-1 flex justify-center items-center mr-10"
+          },
+          [
+            _c("img", {
+              staticClass: "w-32",
+              attrs: {
+                src: "/images/illustrations/strength.svg",
+                alt: "Strength"
+              }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex-1" }, [
+          _c("h2", { staticClass: "text-2xl mb-4 mt-4" }, [_vm._v("Strength")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "mb-8 leading-relaxed" }, [
+            _vm._v(
+              '\n                You\'ve spent hours staring at your computer screen. "Why\n                isn\'t it working?" And then, finally, in a perfect "aha"\n                moment, you level up and solve the problem.\n            '
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-gray-600 px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/illustrations/strength.svg" }
+            },
+            [_vm._v("strength.svg")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flex mb-12" }, [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "px-10 py-6 bg-as-blue rounded-lg flex-1 flex justify-center items-center mr-10"
+          },
+          [
+            _c("img", {
+              staticClass: "w-32",
+              attrs: {
+                src: "/images/illustrations/information.svg",
+                alt: "Information"
+              }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex-1" }, [
+          _c("h2", { staticClass: "text-2xl mb-4 mt-4" }, [
+            _vm._v("Information")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "mb-8 leading-relaxed" }, [
+            _vm._v(
+              '\n                Too often, we lack the mental "tools" to solve a particular\n                problem. Thankfully, that\'s what the forum is for!\n            '
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-gray-600 px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/illustrations/information.svg" }
+            },
+            [_vm._v("Information.svg")]
+          )
+        ])
+      ])
     ])
   }
 ]
@@ -38619,7 +38939,7 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("p", { staticClass: "leading-normal w-64 mt-8" }, [
+        _c("p", { staticClass: "leading-relaxed w-64 mt-8" }, [
           _vm._v(
             "\n            Quirky. Dynamic. Smartsy. He’s got it all. Who wouldn’t want\n            him?\n        "
           )

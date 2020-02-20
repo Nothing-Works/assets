@@ -19,7 +19,7 @@
                 >
             </div>
 
-            <p class="leading-normal w-64 mt-8">
+            <p class="leading-relaxed w-64 mt-8">
                 Quirky. Dynamic. Smartsy. He’s got it all. Who wouldn’t want
                 him?
             </p>
