@@ -7,6 +7,7 @@ import Illustrations from './components/Illustrations'
 import Wallpapers from './components/Wallpapers'
 import NotFound from './components/NotFound'
 import SiteStats from './components/SiteStats'
+import Array from './components/Array'
 
 const LoadersAndAnimations = () =>
     import(
@@ -56,6 +57,10 @@ export default {
         {
             path: '/site-stats',
             component: SiteStats
+        },
+        {
+            path: '/array',
+            component: Array
         }
     ]
 }

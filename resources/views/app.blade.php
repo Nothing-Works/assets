@@ -63,6 +63,9 @@
                             <li class="text-sm leading-10">
                                 <router-link to="/site-stats">Site Stats</router-link>
                             </li>
+                            <li class="text-sm leading-10">
+                                <router-link to="/array">Array</router-link>
+                            </li>
                         </ul>
                     </section>
                 </aside>
